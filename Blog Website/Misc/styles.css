@@ -1,0 +1,58 @@
+/* Master styles */
+
+body {
+    margin: 0px;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr; 
+}
+
+/* Navigation Bar Styles */
+.nav-tab {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+.top-left {
+    display: flex;
+}
+.nav-tab > .top-left > div {
+    margin-right: 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.nav-link {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link a {
+    color: lightslategray;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link a:hover  {
+   color: black;
+}
+ 
+/* Portfolio Styles */
+.portfolio-item-tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr;
+
+}
+portfolio-item-tab {
+    position: relative;
+
+}
+
+

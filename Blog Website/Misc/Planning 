@@ -1,0 +1,96 @@
+Personal Blog Website Project 
+Todo 
+
+Main Page 
+
+-	Header 
+o	Tabs
+o	Logo
+o	Search 
+-	Sub header
+o	Tabs
+-	Main Page Blurb
+-	Photo 
+-	Action Tab
+
+Blog Post
+-	Header
+-	Photo
+-	Blog
+-	Action Tab Linking to the Home Page 
+
+About Page 
+
+
+
+
+body {
+    background-color: whitesmoke
+  }
+
+
+/* Header Styles */
+
+div {
+    background: gray;
+    display: inline;
+
+}
+
+
+
+
+.over-header {
+    background-color: rgb(197, 194, 194);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: '. over-head .';
+}
+
+
+
+
+/* Page Content Styles */
+
+.page-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+
+}
+
+img {
+width: 1500px;
+height: 2000px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.blog-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.blogpost-title {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.blogpost-title {
+    font-weight: 600;
+    color: red;
+
+
+}
+
